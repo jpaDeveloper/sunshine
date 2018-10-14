@@ -1,0 +1,206 @@
+#header{
+	background: #72727A;
+	border-bottom: 4px solid #F1CD74;
+}
+#about{
+	background: #F37207;
+}
+#franquia{
+	background: #008AD2;
+	color: #72727A;
+	border-top: 4px solid #72727A;
+}
+#franquia h1{
+	text-align: center;
+	color: #72727A;
+}
+#marketing{
+	background: #72727A;
+	border-top: 10px solid #008AD2;
+	border-bottom: 4px solid #F1CD74;
+}
+#marketing h1{
+	text-align: center;
+}
+#marketing p{
+	font-size: 24px;
+
+}
+#marketing img{
+	margin-top: 20%;
+	max-width: 100%;
+}
+#gocart{
+	background: #72727A;
+	/*border-top: 4px solid #F1CD74;*/
+}
+#menu{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#menu-parent{
+	position: relative;
+}
+
+
+#menu li{
+	list-style: none;
+	display: inline;
+}
+
+#menu a{
+	text-decoration: none;
+	line-height: 42px;
+	padding: 8px;
+}
+#about{
+	background: #fff;
+	/*background: url(../images/sem-fundo.png)no-repeat left center;*/
+	background-size: 500px;
+}
+#about-parent{
+	position: relative;
+}
+#descrition li{
+	list-style: none;
+}
+#descrition b{
+	text-decoration: none;
+	line-height: 2;
+	bottom: 2;
+}
+#descrition{
+	/*position: absolute;
+	right: 50px;
+	text-align: center;
+	top: 2;*/
+}
+
+.sunshine-color *{
+	color: #F1CD74;
+	margin: 0;
+}
+.white-color *{
+	color: white;
+	margin: 0;
+}
+.default-width{
+	width: 80%;
+	margin: 0 auto;
+}
+.large-height{
+	min-height: 400px;
+}
+
+.black-color{
+	color: #72727A;
+	margin: 0;
+	font-size: 40;
+}
+/*.about-child {
+	width: 45%;
+	display: inline-block;
+	vertical-align: middle;
+}*/
+.about-image img {
+	max-width: 100%;
+}
+.about-texts {
+	padding-top: 20px;
+	text-align: center;
+}
+.about-texts h3 {
+	margin: 0;
+	font-size: 32px;
+	padding: 16px;
+}
+.line-shape {
+    margin-left: calc(50% - 40px);
+}
+.line-shape-white, .line-shape {
+    width: 80px;
+    height: 2px;
+    background-color: #F1CD74;
+    margin-top: 10px;
+    margin-bottom: 22px;
+}
+
+body{
+	margin: 0;
+}
+
+*{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.hexagono {
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
+    cursor: pointer;
+}
+.imagem1 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+.imagem2 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 41% 20%;
+    background-size: cover;
+    background-image: url(../images/LUIZ.png);
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+.imagem3 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 40% 60%;
+    /*background-size: cover;*/
+    background-image: url(../images/ATILA.png);
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+.imagem4 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 35% 1%;
+    /*background-size: cover;*/
+    background-image: url(../images/FELIPE.jpg);
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+
+.um {
+    width: 200px;
+    height: 250px;
+    margin: 0 0 0 20%;
+}
+.count-down{
+	padding-top: 32px;
+}
