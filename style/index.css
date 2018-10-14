@@ -142,6 +142,9 @@ body{
     -o-transform: rotate(120deg);
     transform: rotate(120deg);
     cursor: pointer;
+    width: 80%;
+    max-width: 200px;
+    margin: 0 auto;
 }
 .imagem {
     width: 100%;
@@ -180,9 +183,7 @@ body{
 }
 
 .um {
-    width: 200px;
     height: 250px;
-    margin: 0 0 0 20%;
 }
 .count-down{
 	padding-top: 32px;
