@@ -225,7 +225,7 @@
 			<p>Preencha o formulário ao lado.</p>
 		</div>
 		<div class="col-md-6">
-			<form method="POST">
+			<form method="POST"> <!-- action="enviar.php"> -->
 				<div class="form-group">
 				    <label>Nome</label>
 				    <input id="name" name="nome" type="text" class="form-control" placeholder="Nome" required>
@@ -238,7 +238,7 @@
 				    <label>Mensagem</label>
 				    <textarea id="message" name="mensagem" class="form-control" placeholder="Mensagem"></textarea>
 				</div>
-				<button class="btn btn-warning">Limpar</button>
+				<a class="btn btn-warning">Limpar</a>
 				<button class="btn btn-success">Enviar</button>
 			</form>
 		</div>
